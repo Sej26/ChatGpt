@@ -16,7 +16,7 @@ useEffect(()=> {
 
   const fetchBotResponse=async() => {
        const {data}= await axios.post(
-        "http://localhost:5713",
+        "https://chatgpt-my1w.onrender.com",
         {input},
         {
           headers: {
